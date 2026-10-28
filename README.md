@@ -15,4 +15,4 @@
 
 ## 📦 Быстрый старт
 - Откройте  в браузере или запустите Live Server в VS Code.
-- Публичная версия доступна по ссылке: [https://dashandooo.github.io/hayday-landing/](https://dashandooo.github.io/hayday-landing/)
+- Публичная версия доступна по ссылке: [https://dashando.github.io/hayday-landing/](https://dashando.github.io/hayday-landing/)
