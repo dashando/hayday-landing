@@ -490,7 +490,43 @@
             display: inline-block !important;
         }
     
-</style>
+
+        /* Real Images Styles - Added in feature/add-farm-photos */
+        .about-farm-img {
+            width: 100%;
+            max-width: 480px;
+            border-radius: 20px;
+            border: 4px solid #8BC34A;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+            transition: transform 0.3s ease;
+        }
+        .about-farm-img:hover {
+            transform: scale(1.03);
+        }
+        .feature-crop-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border: 2px solid #FFC107;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .character-real-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #FFC107;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+            margin: 0 auto 15px;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .character-real-img:hover {
+            transform: scale(1.1) rotate(3deg);
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -530,11 +566,8 @@
                 <p>Здесь вы сможете создать свою уникальную ферму: сажать поля, разводить животных, производить товары и торговать с соседями. Каждая ферма — это история, созданная вашими руками!</p>
                 <p>Присоединяйтесь к миллионам фермеров и начните своё уютное приключение уже сегодня! 🌻</p>
             </div>
-            <div class="about-icons">
-                <span>🌾</span>
-                <span>🐄</span>
-                <span>🚜</span>
-                <span>🌻</span>
+            <div class="about-image-wrapper">
+                <img src="images/farm_barn.png" alt="Уютная ферма и амбар Hay Day" class="about-farm-img">
             </div>
         </div>
     </section>
@@ -581,7 +614,7 @@
         <h2 class="section-title">Жители фермы</h2>
         <div class="characters-grid">
             <div class="character-card">
-                <div class="character-emoji">🐄</div>
+                <img src="images/cow_character.png" alt="Корова Бурёнка" class="character-real-img">
                 <h3>Корова Бурёнка</h3>
                 <p>Даёт свежее молоко каждый день!</p>
             </div>
